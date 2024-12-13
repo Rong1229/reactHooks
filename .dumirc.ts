@@ -10,6 +10,6 @@ export default defineConfig({
       { type: 'hooks', dir: 'packages/hooks/src' }, // hooks路径
     ],
   },
-  base: '/',               // 基础路径
-  publicPath: '/',         
+  base: '/reactHooks/',               // 基础路径
+  publicPath: '/reactHooks/',         
 });

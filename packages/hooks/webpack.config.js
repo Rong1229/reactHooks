@@ -8,6 +8,6 @@ module.exports = merge(common, {
 		filename: 'hooks.js',
 		library: 'hooks',
 		path: path.resolve(__dirname, './dist'),
-		publicPath: '/encode-hooks/',
+		publicPath: '/reactHooks/',
 	}
 })
