@@ -2,10 +2,21 @@
   "name": "hooks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "unpkg": "dist/hooks.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp && webpack-cli"
   },
+  "files": [
+    "dist",
+    "lib",
+    "es",
+    "metadata.json",
+    "package.json",
+    "README.md"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC"
