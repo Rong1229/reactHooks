@@ -5,7 +5,7 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { getSketchJSON } from '/Users/rongrong/Documents/2024学习代码/ReactHooks/.dumi/tmp/plugin-html2sketch';
+export { getSketchJSON } from '/Users/rongrong/Documents/2024学习代码/ReactHooks/.dumi/tmp-production/plugin-html2sketch';
 // plugins types.d.ts
 // @umijs/renderer-*
 export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/@umijs+renderer-react@4.3.35_react-dom@18.3.1_react@18.3.1/node_modules/@umijs/renderer-react';
@@ -16,5 +16,3 @@ export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr
 export const useServerInsertedHTML: Function = () => {};
-// test
-export { TestBrowser } from './testBrowser';

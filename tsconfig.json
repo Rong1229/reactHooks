@@ -9,16 +9,35 @@
     "sourceMap": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"],
-      "encodeHooks": ["./packages/hooks/src/index.ts"],
-      "encode-hooks": ["./packages/hooks/src/index.ts"],
-      "encodeHooks/lib/*": ["./packages/hooks/src/*"],
-      "encode-hooks/lib/*": ["./packages/hooks/src/*"]
+      "@/*": [
+        "src/*"
+      ],
+      "encodeHooks": [
+        "./packages/hooks/src/index.ts"
+      ],
+      "encode-hooks": [
+        "./packages/hooks/src/index.ts"
+      ],
+      "encodeHooks/lib/*": [
+        "./packages/hooks/src/*"
+      ],
+      "encode-hooks/lib/*": [
+        "./packages/hooks/src/*"
+      ],
+      "@@/*": [
+        ".dumi/tmp/*"
+      ]
     },
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
     "importHelpers": true
   },
-  "exclude": ["node_modules", "lib", "es", "dist", "example"]
+  "exclude": [
+    "node_modules",
+    "lib",
+    "es",
+    "dist",
+    "example"
+  ]
 }

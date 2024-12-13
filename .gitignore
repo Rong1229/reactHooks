@@ -9,8 +9,6 @@ node_modules
 coverage
 .doc
 .DS_Store
-.umi
-.umi-production
 page
 lerna-debug.log
 tsconfig.tsbuildinfo
