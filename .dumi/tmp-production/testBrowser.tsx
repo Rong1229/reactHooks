@@ -11,7 +11,7 @@ import type { Location } from 'history';
 
 
 import { getPluginManager as getDumiPluginManager } from './core/plugin';
-import { setPluginManager as setDumiPluginManager } from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+node@22.10.1_@types+react@19.0.0_eslint@7.2.0_jest@29.4_iqbwl5u7w3sxpwrp7d7hj6qu4q/node_modules/dumi/dist/client/theme-api/utils.js';
+import { setPluginManager as setDumiPluginManager } from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+react@19.0.0_dfm7ki5fyxpdrenxkeyndrqepy/node_modules/dumi/dist/client/theme-api/utils.js';
 const publicPath = '/';
 const runtimePublicPath = false;
 

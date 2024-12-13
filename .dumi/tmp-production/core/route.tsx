@@ -8,11 +8,11 @@ export async function getRoutes() {
   return {
     routes,
     routeComponents: {
-'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+node@22.10.1_@types+react@19.0.0_eslint@7.2.0_jest@29.4_iqbwl5u7w3sxpwrp7d7hj6qu4q/node_modules/dumi/dist/client/pages/404.js')),
+'404': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__404" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+react@19.0.0_dfm7ki5fyxpdrenxkeyndrqepy/node_modules/dumi/dist/client/pages/404.js')),
 'dumi-context-layout': React.lazy(() => import(/* webpackChunkName: "dumi__tmp-production__dumi__theme__ContextWrapper" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/.dumi/tmp-production/dumi/theme/ContextWrapper')),
-'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+node@22.10.1_@types+react@19.0.0_eslint@7.2.0_jest@29.4_iqbwl5u7w3sxpwrp7d7hj6qu4q/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
+'DocLayout': React.lazy(() => import(/* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+react@19.0.0_dfm7ki5fyxpdrenxkeyndrqepy/node_modules/dumi/theme-default/layouts/DocLayout/index.js')),
 'docs/index': React.lazy(() => import(/* webpackChunkName: "docs__index.md" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/docs/index.md')),
-'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+node@22.10.1_@types+react@19.0.0_eslint@7.2.0_jest@29.4_iqbwl5u7w3sxpwrp7d7hj6qu4q/node_modules/dumi/dist/client/pages/Demo/index.js')),
+'demo-render': React.lazy(() => import(/* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */'/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+react@19.0.0_dfm7ki5fyxpdrenxkeyndrqepy/node_modules/dumi/dist/client/pages/Demo/index.js')),
 },
   };
 }

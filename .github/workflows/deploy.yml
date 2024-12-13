@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-job:
+jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
@@ -19,7 +19,7 @@ job:
 
       - name: Install and Build
         run: |
-          npm i -g pnpm
+          npm i -g pnpm@7
           pnpm run init
           pnpm run build:doc
         env: 
@@ -30,6 +30,6 @@ job:
         with:
           BRANCH: gh-pages
           FOLDER: dist
-          ACCESS_TOKEN: ${{ secret.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 
 

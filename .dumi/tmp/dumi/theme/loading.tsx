@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import nprogress from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/nprogress@0.2.0/node_modules/nprogress';
 import './nprogress.css';
-import UserLoading from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+node@22.10.1_@types+react@19.0.0_eslint@7.2.0_jest@29.4_iqbwl5u7w3sxpwrp7d7hj6qu4q/node_modules/dumi/dist/client/pages/Loading';
+import UserLoading from '/Users/rongrong/Documents/2024学习代码/ReactHooks/node_modules/.pnpm/dumi@2.4.14_@babel+core@7.26.0_@types+react@19.0.0_dfm7ki5fyxpdrenxkeyndrqepy/node_modules/dumi/dist/client/pages/Loading';
 import React, { useLayoutEffect, type FC } from 'react';
 import { useSiteData } from 'dumi';
 
