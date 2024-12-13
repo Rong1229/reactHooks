@@ -6,6 +6,7 @@
   "module": "./es/index.js",
   "types": "./lib/index.d.ts",
   "unpkg": "dist/hooks.js",
+  "homepage": "https://rong1229.github.io/reactHooks",
   "scripts": {
     "build": "gulp && webpack-cli"
   },
